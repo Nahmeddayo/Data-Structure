@@ -26,7 +26,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Noman extends Application{
+public class Arbaaz extends Application{
 
 	@Override
 	public void start(Stage stage) throws Exception {
@@ -43,7 +43,7 @@ public class Noman extends Application{
 	        Rectangle r2 = new Rectangle();
 	        r2.setWidth(350);
 	        r2.setHeight(550);
-	        Image img = new Image("file:Image/11.JPEG");
+	        Image img = new Image("file:Image/Arbaaz.JPEG");
 	        r2.setFill(new ImagePattern(img));
 	        r2.setArcWidth(50);
 	        r2.setArcHeight(50);
@@ -64,7 +64,7 @@ public class Noman extends Application{
 	         label2.setTranslateX(400);
 	         label2.setTranslateY(130);
 	         
-	         Label label3 = new Label("Noman Zahoor");
+	         Label label3 = new Label("Mir Arbaaz");
 	         Font font5 = Font.font("Verdana",FontPosture.REGULAR, 15);
 	         label3.setFont(font5);
 	         label3.setTextFill(Color.BLACK);
@@ -81,7 +81,7 @@ public class Noman extends Application{
 	         label4.setTranslateX(400);
 	         label4.setTranslateY(190);
 	         
-	         Label label5 = new Label("21");
+	         Label label5 = new Label("20");
 	         Font font7 = Font.font("Verdana",FontPosture.REGULAR, 15);
 	         label5.setFont(font7);
 	         label5.setTextFill(Color.BLACK);
@@ -98,7 +98,7 @@ public class Noman extends Application{
 	         label6.setTranslateX(400);
 	         label6.setTranslateY(250);
 	       
-	         Text txt1=new Text(".Web Development\n.Application Development\n.UI Designer,\n.Backend Development");
+	         Text txt1=new Text(".UI/UX Designing");
 	         txt1.setFont(Font.font("Verdana",FontPosture.REGULAR, 15));
 	         txt1.setFill(Color.BLACK);
 	         txt1.prefHeight(40);
@@ -140,7 +140,7 @@ public class Noman extends Application{
 		         label8.setTranslateX(400);
 		         label8.setTranslateY(430);
 		         
-		         Hyperlink link1 = new Hyperlink("Nahmeddayo@gmail.com");
+		         Hyperlink link1 = new Hyperlink("Mir.53418@gmail.com");
 		          Font font12 = Font.font("Verdana",FontPosture.REGULAR, 15);
 		          link1.setFont(font12);
 		    	      link1.setTextFill(Color.BLACK);
@@ -167,7 +167,7 @@ public class Noman extends Application{
 			 		line.setStroke(Color.BLACK);
 			 		
 			 		
-			 		Text txt2=new Text("I am an Allround Web\nDeveloper. I have also\nGood Knowledge About\nBackend Development and \nMobile App Development.");
+			 		Text txt2=new Text("I am an Allround UI\nand UX Designer.I have \nalso Good Knowledge \nAbout Figma and \nAdobe XD.");
 			         txt2.setFont(Font.font("Verdana",FontPosture.REGULAR, 15));
 			         txt2.setFill(Color.BLACK);
 			         txt2.prefHeight(40);

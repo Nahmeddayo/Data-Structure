@@ -7,13 +7,13 @@ class Slinkedlist{
 	
 	public static void main(String[] args) {
 		LinkedList li = new LinkedList();
-		li.addF("raja", 123456789, 23);
-		li.addF("ali", 12, 20.5);
-		li.addF("absul", 12, 15);
+		li.addF("Noman", 123456789, 23);
+		li.addF("Asjad", 12, 20.5);
+		li.addF("Arbaaz", 12, 15);
 		li.display();
 		
 		
-		System.out.println(li.search("absul"));
+		System.out.println(li.search("Noman"));
 		System.out.println(li.search(123456789));
 		System.out.println(li.search(20.5));
 	}

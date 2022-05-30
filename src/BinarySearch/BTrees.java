@@ -170,12 +170,12 @@ public boolean delete(String id){
 		}
 	public static void main(String arg[]){
 		BTrees b = new BTrees();
-		b.insert("parkash");
-		b.insert("raja");
-		b.insert("basit");
-		b.insert("sdfdsf");
-		b.insert("werds");
-		b.insert("aksdj");
+		b.insert("Noman");
+		b.insert("Arbaaz");
+		b.insert("Asjad");
+		b.insert("Qadeer");
+		b.insert("Saad");
+		b.insert("Sikenadr");
 		b.display(root);
 		
 	
