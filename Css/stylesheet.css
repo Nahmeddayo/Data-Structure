@@ -1,0 +1,55 @@
+.text-field{
+-fx-background-color:transparent;
+-fx-border-radius: 1;
+-fx-prompt-text-fill:black ;
+ -fx-border-width: 2;
+ -fx-border-color: transparent;   
+}
+.text-field:hover{
+-fx-background-color:white;
+-fx-border-radius: 1;
+-fx-prompt-text-fill:black ;
+ -fx-border-width: 2;
+ -fx-border-color:black;
+    
+}
+
+
+.text-field:focused{
+-fx-background-color:white;
+-fx-border-radius: 1;
+-fx-prompt-text-fill:black ;
+ -fx-border-width: 2;
+ -fx-border-color: #0096FF;
+ 
+}
+.button{
+-fx-background-color: black;
+-fx-text-fill: white;
+-fx-background-radius:2em;
+-fx-min-width: 10px;
+-fx-min-height: 3px; 
+-fx-max-width: 120px;
+ -fx-max-height: 50px;
+-fx-border-color:black;
+-fx-border-width:2px;
+-fx-border-radius:2em;
+}
+.button:hover{
+-fx-background-color: Transparent;
+-fx-text-fill: black;
+-fx-background-radius:2em;
+-fx-min-width: 10px;
+-fx-min-height: 3px; 
+-fx-max-width: 150px;
+ -fx-max-height: 50px;
+-fx-border-color:black;
+-fx-border-width:2px;
+-fx-border-radius:2em;   
+}
+
+.image-view{
+-fx-border-width:2px;
+-fx-border-radius:2em;
+
+}
